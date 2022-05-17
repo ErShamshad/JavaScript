@@ -1,0 +1,25 @@
+console.log("Good Morning India");
+let today=new Date();
+console.log(today);
+
+let otherDate=new Date('8-4-2003 04:54:08');
+otherDate=new Date('july 1 1997');
+otherDate=new Date('07/01/1997');
+console.log(otherDate);
+let a;
+a=otherDate.getDay();
+a=otherDate.getDate();
+a=otherDate.getHours();
+a=otherDate.getMinutes();
+a=otherDate.getMonth();
+a=otherDate.getTime();
+a=otherDate.getMonth();
+console.log(a);
+otherDate.setDate(23);
+otherDate.setMonth(2);
+otherDate.setMonth(2);
+otherDate.setFullYear(1900);
+otherDate.setHours(01);
+otherDate.setMinutes(01);
+otherDate.setSeconds(01);
+console.log(otherDate);
